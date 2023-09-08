@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\CharlieTran\\projects\\dotnets\\mystore\\API\\API.csproj": {}
+    "/Users/chuongtran/projects/dotnets/mystore/API/API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\CharlieTran\\projects\\dotnets\\mystore\\API\\API.csproj": {
+    "/Users/chuongtran/projects/dotnets/mystore/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\CharlieTran\\projects\\dotnets\\mystore\\API\\API.csproj",
+        "projectUniqueName": "/Users/chuongtran/projects/dotnets/mystore/API/API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\CharlieTran\\projects\\dotnets\\mystore\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\CharlieTran\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\CharlieTran\\projects\\dotnets\\mystore\\API\\obj\\",
+        "projectPath": "/Users/chuongtran/projects/dotnets/mystore/API/API.csproj",
+        "packagesPath": "/Users/chuongtran/.nuget/packages/",
+        "outputPath": "/Users/chuongtran/projects/dotnets/mystore/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CharlieTran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chuongtran/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +41,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -69,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
