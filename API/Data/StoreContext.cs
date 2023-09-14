@@ -14,6 +14,6 @@ public class StoreContext : DbContext
     private const string CONNECTION_STRING = "Host=localhost;Port=5432;" +
                                              "Username=chuongtran;" +
                                              "Password=i@mChuong47;" +
-                                             "Database=postgres";
+                                             "Database=mystore";
 }
 
